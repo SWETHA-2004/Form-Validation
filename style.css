@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(placemantra1.jpg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 500px;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+form:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #444;
+}
+
+input.form-control {
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+input.form-control:focus {
+  border-color: #fca17d;
+  box-shadow: 0 0 0 0.25rem rgba(252, 161, 125, 0.25);
+}
+
+button {
+  background-color: #f77f00;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #d95d00;
+}
+
+.text-danger {
+  font-size: 0.875rem;
+  margin-top: 4px;
+  display: block;
+}
+@media (max-width: 576px) {
+  form {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
